@@ -7,7 +7,7 @@ GREEN_EXP = 1000
 
 # Books
 # Converts number of blue and greenbooks into equivalent number of purple books
-def upscaleBooks(blueBooks, greenBooks):
+def upscaleBooks(blueBooks =0, greenBooks=0):
     blue = blueBooks*BLUE_EXP
     green = greenBooks*GREEN_EXP
     return math.floor((blue+green)/PURPLE_EXP)
